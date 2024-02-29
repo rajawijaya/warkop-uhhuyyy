@@ -1,0 +1,65 @@
+$dark-choco: #1A120B;
+$choco: #3C2A21;
+$cream: #D5CEA3;
+$grey: rgb(229, 229, 203);
+
+body {
+    background-color: $grey !important;
+    font-family: "Poppins", sans-serif !important;
+}
+
+nav {
+    height: 70px !important;
+}
+
+.navbar-brand {
+    font-family: "Protest Riot", sans-serif !important;
+    font-size: 30px !important;
+}
+
+#navbarSupportedContent {
+    background-color: $dark-choco;
+    margin: 0 -12px 0;
+    padding: 20px;
+}
+
+.text-dark-choco {
+    color: $dark-choco !important;
+}
+
+.bg-dark-choco {
+    background-color: $dark-choco !important; 
+}
+
+.text-choco {
+    color: $choco !important;
+}
+
+.bg-choco {
+    background-color: $choco !important;
+}
+
+.text-cream {
+    color: $cream !important;
+}
+
+.bg-cream {
+    background-color: $cream !important;
+}
+
+.text-grey {
+    color: $grey !important;
+}
+
+.bg-grey {
+    background-color: $grey !important;
+}
+
+.dropdown-menu > li > a:hover {
+    background-image: none;
+    background-color: $choco !important;
+}
+
+hr.cream {
+    border-top: 1px solid $cream;
+}
